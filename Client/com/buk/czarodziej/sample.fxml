@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.buk.czarodziej.Controller">
+   <children>
+      <MenuBar layoutY="2.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Menu">
+            <items>
+              <MenuItem fx:id="menuAuthor" mnemonicParsing="false" onAction="#showAboutAuthorMenu" text="Show about author" />
+                  <MenuItem fx:id="menuClose" mnemonicParsing="false" onAction="#closeApplicationMenu" text="Close" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ButtonBar fx:id="firstButtonBar" buttonMinWidth="50.0" layoutX="103.0" layoutY="546.0" prefHeight="50.0" prefWidth="595.0">
+        <buttons>
+            <Button id="record-sales" fx:id="qButton" mnemonicParsing="false" onAction="#sendQ" stylesheets="@style/ButtonStyle.css" text="Q" />
+            <Button id="record-sales" fx:id="wButton" mnemonicParsing="false" onAction="#sendW" stylesheets="@style/ButtonStyle.css" text="W" />
+            <Button id="record-sales" fx:id="eButton" mnemonicParsing="false" onAction="#sendE" stylesheets="@style/ButtonStyle.css" text="E" />
+            <Button id="record-sales" fx:id="rButton" mnemonicParsing="false" onAction="#sendR" stylesheets="@style/ButtonStyle.css" text="R" />
+            <Button id="record-sales" fx:id="tButton" mnemonicParsing="false" onAction="#sendT" stylesheets="@style/ButtonStyle.css" text="T" />
+            <Button id="record-sales" fx:id="yButton" mnemonicParsing="false" onAction="#sendY" stylesheets="@style/ButtonStyle.css" text="Y" />
+            <Button id="record-sales" fx:id="uButton" mnemonicParsing="false" onAction="#sendU" stylesheets="@style/ButtonStyle.css" text="U" />
+            <Button id="record-sales" fx:id="iButton" mnemonicParsing="false" onAction="#sendI" stylesheets="@style/ButtonStyle.css" text="I" />
+            <Button id="record-sales" fx:id="oButton" mnemonicParsing="false" onAction="#sendO" stylesheets="@style/ButtonStyle.css" text="O" />
+            <Button id="record-sales" fx:id="pButton" mnemonicParsing="false" onAction="#sendP" stylesheets="@style/ButtonStyle.css" text="P" />
+        </buttons>
+         <padding>
+            <Insets left="-20.0" />
+         </padding>
+      </ButtonBar>
+      <ImageView fx:id="imageView" fitHeight="300.0" fitWidth="300.0" layoutX="69.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="textPassword" layoutX="103.0" layoutY="517.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="595.0">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Text>
+      <Text layoutX="103.0" layoutY="396.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lives:">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="textLives" layoutX="205.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="50.0">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startY="0.0380952380952381">
+               <stops>
+                  <Stop color="#dd2323" />
+                  <Stop color="#681f1f" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text layoutX="103.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Category:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="textCategory" layoutX="266.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="337.0">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#dd2323" />
+                  <Stop color="#320202" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <ButtonBar fx:id="secondButtonBar" buttonMinWidth="50.0" layoutX="136.0" layoutY="606.0" prefHeight="50.0" prefWidth="400.0">
+        <buttons>
+            <Button id="record-sales" fx:id="aButton" mnemonicParsing="false" onAction="#sendA" stylesheets="@style/ButtonStyle.css" text="A" />
+            <Button id="record-sales" fx:id="sButton" mnemonicParsing="false" onAction="#sendS" stylesheets="@style/ButtonStyle.css" text="S" />
+            <Button id="record-sales" fx:id="dButton" mnemonicParsing="false" onAction="#sendD" stylesheets="@style/ButtonStyle.css" text="D" />
+            <Button id="record-sales" fx:id="fButton" mnemonicParsing="false" onAction="#sendF" stylesheets="@style/ButtonStyle.css" text="F" />
+            <Button id="record-sales" fx:id="gButton" mnemonicParsing="false" onAction="#sendG" stylesheets="@style/ButtonStyle.css" text="G" />
+            <Button id="record-sales" fx:id="hButton" mnemonicParsing="false" onAction="#sendH" stylesheets="@style/ButtonStyle.css" text="H" />
+            <Button id="record-sales" fx:id="jButton" mnemonicParsing="false" onAction="#sendJ" stylesheets="@style/ButtonStyle.css" text="J" />
+            <Button id="record-sales" fx:id="kButton" mnemonicParsing="false" onAction="#sendK" stylesheets="@style/ButtonStyle.css" text="K" />
+            <Button id="record-sales" fx:id="lButton" mnemonicParsing="false" onAction="#sendL" stylesheets="@style/ButtonStyle.css" text="L" />
+        </buttons>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="-20.0" />
+         </padding>
+      </ButtonBar>
+      <ButtonBar fx:id="thirdButtonBar" buttonMinWidth="50.0" layoutX="195.0" layoutY="666.0" prefHeight="50.0" prefWidth="300.0">
+          <buttons>
+              <Button id="record-sales" fx:id="zButton" mnemonicParsing="false" onAction="#sendZ" stylesheets="@style/ButtonStyle.css" text="Z" />
+              <Button id="record-sales" fx:id="xButton" mnemonicParsing="false" onAction="#sendX" stylesheets="@style/ButtonStyle.css" text="X" />
+              <Button id="record-sales" fx:id="cButton" mnemonicParsing="false" onAction="#sendC" stylesheets="@style/ButtonStyle.css" text="C" />
+              <Button id="record-sales" fx:id="vButton" mnemonicParsing="false" onAction="#sendV" stylesheets="@style/ButtonStyle.css" text="V" />
+              <Button id="record-sales" fx:id="bButton" mnemonicParsing="false" onAction="#sendB" stylesheets="@style/ButtonStyle.css" text="B" />
+              <Button id="record-sales" fx:id="nButton" mnemonicParsing="false" onAction="#sendN" stylesheets="@style/ButtonStyle.css" text="N" />
+              <Button id="record-sales" fx:id="mButton" mnemonicParsing="false" onAction="#sendM" stylesheets="@style/ButtonStyle.css" text="M" />
+          </buttons>
+         <padding>
+            <Insets left="-20.0" />
+         </padding>
+      </ButtonBar>
+      <Button id="record-sales-red" fx:id="startGameButton" layoutX="603.0" layoutY="99.0" minWidth="150.0" mnemonicParsing="false" onAction="#startNewGame" stylesheets="@style/ButtonStyle.css" text="Start New Game" />
+      <Button id="record-sales-red" fx:id="closeButton" layoutX="603.0" layoutY="341.0" minWidth="150.0" mnemonicParsing="false" onAction="#closeApplicationMenu" stylesheets="@style/ButtonStyle.css" text="Close Application" />
+      <Button id="record-sales-red" fx:id="authorButton" layoutX="603.0" layoutY="202.0" minWidth="150.0" mnemonicParsing="false" onAction="#showAboutAuthorMenu" stylesheets="@style/ButtonStyle.css" text="Author" />
+      <Button id="record-sales-red" fx:id="connectButton" layoutX="603.0" layoutY="150.0" mnemonicParsing="false" onAction="#connect" prefWidth="150.0" stylesheets="@style/ButtonStyle.css" text="Connect to server" />
+   </children>
+</AnchorPane>

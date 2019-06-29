@@ -1,0 +1,34 @@
+Panstwo/Z I M B W A B W E
+Panstwo/P O L S K A
+Panstwo/A R M E N I A
+Panstwo/N I E M C Y A
+Panstwo/T U R C J A
+Miasto/G D A N S K A
+Miasto/R Z E S Z O W
+Jedzenie/P I E R O G I
+Jedzenie/N A L E S N I K I
+Jedzenie/K E B A B
+Jedzneie/J A B L K O
+Napoj/P I W O
+Napoj/W H I S K Y
+Napoj/M L E K O
+Napoj/W O D A
+Miasto/K R A K O W
+Gra komputerowa/A S S A S S I N S   C R E E D
+Gra komputerowa/T H E   S I M S
+Gra komputerowa/C O U N T E R   S T R I K E
+System operacyjny/W I N D O W S
+System operacyjny/L I N U X
+Przedmiot/J A V A
+Film/J A M E S   B O N D
+Imie/M A K S Y M I L I A N
+Imie/A N N A
+Imie/D A M I A N
+Imie/P I O T R
+Imie/A D A M
+Imie/M A R C I N
+Imie/P A W E L
+Roslina/J A B L O N
+Roslina/C E B U L A
+Roslina/P O M I D O R
+Roslina/B U K
